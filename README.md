@@ -4,3 +4,8 @@
 ```
 php -r "copy('https://github.com/mathsgod/rayback-dist/raw/main/rayback.phar', 'rayback.phar');"
 ```
+
+
+```
+php rayback.phar init
+```
