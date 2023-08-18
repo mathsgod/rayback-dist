@@ -2,7 +2,7 @@
 
 ## Installation
 
-Go to your project web root directory and run
+Go to your web root directory and run
 
 ```
 mkdir rayback
