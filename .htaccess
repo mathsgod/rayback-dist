@@ -1,0 +1,10 @@
+<Files "rayback.phar">  
+  Order Allow,Deny
+  Deny from all
+</Files>
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteBase /rayback/
+RewriteRule ^(.*)$ index.php [L,QSA]        
