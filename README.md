@@ -17,6 +17,8 @@ php rayback.phar init
 
 ### Check database connection
 
+After setup, you can check database connection by running
+
 ```
 php rayback.php test_db
 ```
