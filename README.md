@@ -1,7 +1,12 @@
 # RayBack dist
 
 ## Installation
+
+Go to your project web root directory and run
+
 ```
+mkdir rayback
+cd rayback
 php -r "copy('https://github.com/mathsgod/rayback-dist/raw/main/rayback.phar', 'rayback.phar');"
 ```
 
